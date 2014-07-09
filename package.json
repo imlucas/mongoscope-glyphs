@@ -1,0 +1,25 @@
+{
+  "name": "mongoscope-glyphs",
+  "version": "0.0.1",
+  "description": "Glyphs for the MongoDB taxonomy and more!",
+  "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
+  "license": "MIT",
+  "homepage": "http://github.com/imlucas/mongoscope-glyphs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imlucas/mongoscope-glyphs.git"
+  },
+  "keywords": [
+    "mongoscope",
+    "mongodb.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "fontfacegen": "^0.1.4",
+    "gulp": "^3.8.2",
+    "through2": "^0.5.1"
+  },
+  "scripts": {
+    "build": "gulp"
+  }
+}

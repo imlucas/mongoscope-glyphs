@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+npm-debug.log
+mongoscope.css
+mongoscope.eot
+mongoscope.svg
+mongoscope.ttf
+mongoscope.woff

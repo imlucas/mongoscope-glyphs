@@ -1,0 +1,50 @@
+@mongoscope-font-path: "@{icon-font-path}/mongoscope";
+
+@font-face {
+  font-family: 'mongoscope-glyphs';
+  src: ~"url(@{mongoscope-font-path}.eot')";
+  src: ~"url('@{mongoscope-font-path}.eot') format('embedded-opentype')",
+    ~"url('@{mongoscope-font-path}.woff') format('woff')",
+    ~"url('@{mongoscope-font-path}.ttf') format('truetype')",
+    ~"url('@{mongoscope-font-path}.svg') format('svg')";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@fa-var-mongo-config: "g";
+@fa-var-mongo-config-instance: "f";
+@fa-var-mongo-leaf: "a";
+@fa-var-mongo-scope: "b";
+@fa-var-mongo-store: "c";
+@fa-var-mongo-router: "e";
+@fa-var-mongo-replicaset: "d";
+@fa-var-mongo-search: "s";
+
+.fa-10x { font-size: 10em; }
+
+.fa-mongo-config:before { content: @fa-var-mongo-config;}
+.fa-mongo-config-instance:before { content: @fa-var-mongo-config-instance;}
+.fa-mongo-leaf:before { content: @fa-var-mongo-leaf;}
+.fa-mongo-scope:before { content: @fa-var-mongo-scope;}
+.fa-mongo-store:before { content: @fa-var-mongo-store;}
+.fa-mongo-router:before { content: @fa-var-mongo-router;}
+.fa-mongo-replicaset:before { content: @fa-var-mongo-replicaset;}
+.fa-mongo-search:before { content: @fa-var-mongo-search;}
+
+.fa-mongo-config,
+.fa-mongo-config-instance,
+.fa-mongo-leaf,
+.fa-mongo-scope,
+.fa-mongo-store,
+.fa-mongo-router,
+.fa-mongo-replicaset,
+.fa-mongo-search
+{
+  display: inline-block;
+  font-family: mongoscope-glyphs;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
