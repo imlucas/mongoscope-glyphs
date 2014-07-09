@@ -4,7 +4,8 @@
 
 - [ ] find the gulp task that converts an svg font file to individal png's
 - [ ] include pngs in repo
-- [ ] Add examples with the actual pngs here
+- [ ] add examples with the actual pngs here
+- [ ] package as keynote, PowerPoint and Visio shapes
 
 ## Making Changes
 
@@ -14,7 +15,7 @@
 
 ## Using
 
-Meant to be used with [bootstrap][bootstrap] (uses the `@icon-font-path` 
+Meant to be used with [bootstrap][bootstrap] (uses the `@icon-font-path`
 variable) and [Font Awesome][fa].  `npm install --save-dev mongoscope-glyphs`
 and then mixin the below with your existing app gulpfile:
 
@@ -35,6 +36,10 @@ gulp.task('less', function(){
     .pipe(gulp.dest('./static/css'));
 });
 ```
+
+## License
+
+MIT
 
 [bootstrap]: http://getbootstrap.com/css/#less-variables-icons
 [fa]: http://fontawesome.github.io/Font-Awesome
